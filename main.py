@@ -276,7 +276,8 @@ if __name__ == '__main__':
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
-    rootpath = "/opt/lampp/htdocs"
+    # Patched 060823 to reflect new pathname
+    rootpath = "/opt/lampp/htdocs/basicbiologydb/BasicBiologyDatabase/";
 
     # Get list of personid/documentfilepath tuples
     person_documentdirs = get_people_with_document_directories()
