@@ -268,8 +268,6 @@ def gettreewalkedfilenames(documentdir, rootpath):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
-
     # Patched 060823 to reflect new pathname
     rootpath = "/opt/lampp/htdocs/basicbiologydb/BasicBiologyDatabase/";
 
